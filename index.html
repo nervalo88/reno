@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>MezonReno</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/material-icons.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
+    <link rel="stylesheet" href="assets/css/Beautiful-Time-Picker.css">
+    <link rel="stylesheet" href="assets/css/opening-times-time-picker.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body style="background-image: url(&quot;assets/img/webp.webp&quot;);background-size: cover;">
+    <div class="form-group">
+        <div class="text-center col-sm-10" style="width: 80%;"><label class="text-light d-xl-flex justify-content-xl-center" style="font-size: 25px;"><strong>Chambre R&nbsp;</strong></label><label class="text-light d-xl-flex justify-content-xl-center" style="font-size: 15px;"><br><strong>Heure d'ouverture du volet</strong><br></label>
+            <div
+                class="row" style="padding: -10px;">
+                <div class="col"><label class="text-secondary" style="font-size: 14px;">Semaine (lun. - sam.)</label><input class="bg-dark shadow-lg" id="time_week" type="time"></div>
+        </div>
+        <div class="row" style="padding: 10px;">
+            <div class="col"><label class="text-secondary" style="font-size: 14px;">Week-end (sam. - dim.)</label><input class="bg-dark shadow-lg" id="time_weekend" type="time"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 col-xl-12 d-flex d-xl-flex justify-content-center justify-content-xl-center"><button class="btn btn-primary btn-lg" id="btn_update" type="button">Mise à jour</button></div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="row" style="padding: 16px;">
+            <div class="col text-center"><button class="btn btn-success btn-lg" id="btn_fume" type="button">Fumette<i class="material-icons">smoke_free</i></button></div>
+            <div class="col text-center"><button class="btn btn-info btn-lg text-center" id="btn_pasfume" type="button">Plus fumette</button></div>
+        </div>
+        <div class="row" style="padding: 15px;">
+            <div class="col text-center"><button class="btn btn-warning btn-lg text-capitalize text-center" id="btn_lablight" type="button"><i class="fa fa-lightbulb-o" style="height: 25px;font-size: 40px;"></i>&nbsp;Lampe LABO</button></div>
+            <div class="col text-center"><button class="btn btn-primary btn-lg text-capitalize text-center" id="btn_volet" type="button"><i class="fa fa-bed" style="height: 25px;font-size: 40px;"></i>&nbsp;Volet</button><button class="btn btn-warning btn-lg text-capitalize text-center"
+                    id="btn_volet-1" type="button"><i class="fas fa-sun" style="height: 25px;font-size: 40px;"></i>&nbsp;Volet</button></div>
+        </div>
+    </div>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
